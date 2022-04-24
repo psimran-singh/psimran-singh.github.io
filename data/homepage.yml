@@ -1,0 +1,114 @@
+head:
+  title: "Simran Singh's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I'm Simran"
+  subtitle: "Aspiring Data Scientist"
+  description: "I am currently a Master of Public Informatics student at Rutger's University - Bloustein School of Planning and Public Policy"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Simran"
+    URL: "mailto:psimran.singh@rutgers.edu"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/simran-singh-1bb8b1b5/"
+
+    - icon: "github"
+      URL: "https://github.com/psimran-singh"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I am passionate about using data science for the public good.</strong> 
+    My work is currently focused on analyzing and visualizing data on solar adoption in New Jersey.
+    In the future I hope to apply my data science experience to other subjects as well.
+    Feel free to follow my journey as I steadily build my body of work.
+    </p>
+  image:
+    x: "img/who-am-i/user-picture-2.png"
+    _2x: "img/who-am-i/user-picture-2.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Experienced in data management, statistical analysis, and data visualization."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/Singh_Resume 2022.pdf"
+
+  items:
+    - title: "Graduate Research Assistant"
+      company: "Rutgers Center for Green Building"
+      duration: "November 2021 - Present"
+
+    - title: "Data Analyst"
+      company: "Verisk Financial | Argus"
+      duration: "June 2018 - November 2019"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Rutgers University"
+      year: "2021-2023"
+      degree: "Master of Public Informatics"
+
+    - university: "Wesleyan University"
+      year: "2008-2010"
+      degree: "Bachelor of Arts in Mathematics and Economics, Certificate in International Studies"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  works:
+    - title: "New Jersey Solar Adoption Dashboard"
+      description: "Using public available solar installation data, I've built a dashboard illustrating the current landscape of solar adoption in New Jersey."
+      image:
+        x: "img/works/Solar.png"
+        _2x: "img/works/Solar.png"
+      is_even: true
+
+    - title: "New Brunswick Noise Complaint Heatmap"
+      description: "This visualization was made using deployment data from New Brunswick Police Department, in order to illustrate in what areas of New Brunswick police were respondin to the most noise complaints."
+      image:
+        x: "img/works/Noise.png"
+        _2x: "img/works/Noise.png"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact Simran"
+    
+  image:
+    x: "img/who-am-i/user-picture-2.png"
+    _2x: "img/who-am-i/user-picture-2.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'psimran.singh@rutgers.edu'
+    
+  email:
+    title: "Email"
+    email: '<a href="mailto:psimran.singh@rutgers.edu">psimran.singh@rutgers.edu</a>'
+  address:
+    title: "Address"
+    address: "Somewhere in New Jersey"
+
